@@ -1,7 +1,6 @@
 from selenium import webdriver
 import time
 import random
-import sentencegen as gen
 
 def commentspam(num,timedelta,postURL,cmt):
     #your credentials here
@@ -65,17 +64,19 @@ def commentspam(num,timedelta,postURL,cmt):
             
         
 # list of post need to comment
+# list of post need to comment
 postUrl=["https://m.facebook.com/groups/1344873668901428/permalink/5170024369719653/",
          "https://m.facebook.com/groups/330966831016688/permalink/1157555105024519/",
-         "https://m.facebook.com/groups/vieclamquanbinhtan/permalink/5146164988765265/",
+        #  "https://m.facebook.com/groups/vieclamquanbinhtan/permalink/5146164988765265/",
          "https://m.facebook.com/groups/danbinhchanhnew/permalink/5067636606646783/",
-        "https://m.facebook.com/groups/377156329334346/permalink/1611130729270227/",
+        # "https://m.facebook.com/groups/377156329334346/permalink/1611130729270227/",
         "https://m.facebook.com/groups/pgpbkhuvucmienbac/permalink/425006882503944/",
         "https://m.facebook.com/groups/101725677141334/permalink/982419969071896/",
-        "https://m.facebook.com/groups/406678599486879/permalink/2337853006369419/",
-        "https://m.facebook.com/groups/timvieclamtaihcmsaigon2/permalink/3147531062169326/",
-        "https://m.facebook.com/groups/275568093015527/permalink/1154702545102073/",
-        "https://m.facebook.com/groups/280503298758830/permalink/2311721458970327/"]
+        # "https://m.facebook.com/groups/406678599486879/permalink/2337853006369419/",
+        # "https://m.facebook.com/groups/timvieclamtaihcmsaigon2/permalink/3147531062169326/",
+        # "https://m.facebook.com/groups/275568093015527/permalink/1154702545102073/",
+        "https://m.facebook.com/groups/280503298758830/permalink/2311721458970327/"
+        ]
 
 cmt = ["up"]
 # call method ( how many repeate comment, how long of the delay comment, list of post )
